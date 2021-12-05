@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "entity.subjekt.fo": {
+      "udaje": {
+        "fo.jmeno": "Michal",
+        "fo.prijmeni": "Rada",
+        "fo.id_ds": "aaa0000000ac",
+        "fo.identifikator": "A1234aaaaaaaa0a",
+        "fo.zdroj_identifikatoru": "AIFO",
+        "version": 1,
+        "valid": true
+      },
+      "ztotozneni_zr": {
+        "stav_ztotozneni": true,
+        "ztotozneni_datum_cas": "2020-05-05_13-03",
+        "ztotozneni_system": "AIS123456",
+        "ztotozneni_uzivatel": "Spisum/jan.novak",
+        "ztotozneni_kod_vysledku": "1",
+        "aktualizace_datum_cas": "",
+        "aktualizace_system": "",
+        "aktualizace_uzivatel": "",
+        "aktualizace_kod_vysledku": 0
+      },
+      "svazane_dokumenty": [
+        2,
+        {
+          "dokument.pid": "Spisum12345678",
+          "dokument.cj": "ÚZŽ-00233/2020",
+          "dokument.ecse": "",
+          "dokument.evidence": "ESSL",
+          "dokument.predmet": "Dopis ve věci tvorby datového modelu Jmenného rejstříku",
+          "druhy_vztahu": {
+            "je_odesilatel": true,
+            "je_prijemce": false,
+            "je_dalsi_prijemce": false,
+            "je_ucastnik": true,
+            "je_dotceny": false,
+            "dalsi_priznaky": ""
+          },
+          "zapsal_uzivatel": "Spisum/jan.novak",
+          "zapsal_datum_cas": "2020-05-05-10:30",
+          "identifikator_zaznamu_tp": "15202",
+          "valid": true
+        },
+        {
+          "dokument.pid": "Spisum12345699\n",
+          "dokument.cj": "ÚZŽ-00234/2020",
+          "dokument.ecse": "",
+          "dokument.evidence": "ESSL",
+          "dokument.predmet": "Odpověď na Dopis ve věci tvorby datového modelu Jmenného rejstříku",
+          "druhy_vztahu": {
+            "je_odesilatel": false,
+            "je_prijemce": true,
+            "je_dalsi_prijemce": false,
+            "je_ucastnik": true,
+            "je_dotceny": false,
+            "dalsi_priznaky": ""
+          },
+          "zapsal_uzivatel": "Spisum/jan.novak",
+          "zapsal_datum_cas": "2020-05-05 14:10",
+          "identifikator_zaznamu_tp": "15241",
+          "valid": true
+        }
+      ],
+      "jr.subjekt.auditlog": [
+        1,
+        {
+          "jr.auditlog.identifier": "1001",
+          "jr.auditlog.timestamp": "2020-05-05_10-33-02",
+          "jr.auditlog.eventtype": "Zalozeni_subjektu"
+        }
+      ]
+    },
+    "entity.subjekt.po": {
+      "udaje": {
+        "po.nazev": "Jebavý a syn, s.r.o.",
+        "po.id_ds": "aaa0000000ac",
+        "po.identifikator": "12345678",
+        "po.zdroj_identifikatoru": "AIFOIČO",
+        "version": 1,
+        "valid": true
+      },
+      "ztotozneni_zr": {
+        "stav_ztotozneni": true,
+        "ztotozneni_datum_cas": "2020-05-05_13-03",
+        "ztotozneni_system": "AIS123456",
+        "ztotozneni_uzivatel": "Spisum/jan.novak",
+        "ztotozneni_kod_vysledku": "1",
+        "aktualizace_datum_cas": "",
+        "aktualizace_system": "",
+        "aktualizace_uzivatel": "",
+        "aktualizace_kod_vysledku": 0
+      },
+      "svazane_dokumenty": [
+        1,
+        {
+          "dokument.pid": "Spisum23456789",
+          "dokument.cj": "ÚZŽ-00239/2020",
+          "dokument.ecse": "",
+          "dokument.evidence": "ESSL",
+          "dokument.predmet": "Dokument k firmě Jebavý a syn",
+          "druhy_vztahu": {
+            "je_odesilatel": true,
+            "je_prijemce": false,
+            "je_dalsi_prijemce": false,
+            "je_ucastnik": true,
+            "je_dotceny": false,
+            "dalsi_priznaky": ""
+          },
+          "zapsal_uzivatel": "Spisum/jan.novak",
+          "zapsal_datum_cas": "2020-05-05_15:50",
+          "identifikator_zaznamu_tp": "152044",
+          "valid": true
+        }
+      ],
+      "jr.subjekt.auditlog": [
+        1,
+        {
+          "jr.auditlog.identifier": "1001",
+          "jr.auditlog.timestamp": "2020-05-05_10-33-02",
+          "jr.auditlog.eventtype": "Zalozeni_subjektu"
+        }
+      ]
+    }
+  },
+  "json_workdata": {
+    "package.name": "Ukázková reprezentace dat pro Jmenný rejstřík",
+    "package.version": "3.0",
+    "package.version.date": "2020-05-11",
+    "catalogue.name": "Jmenny_rejstrik",
+    "catalogue.flags": "Solid,plain,json,datamodel,datacontent"
+  }
+}
